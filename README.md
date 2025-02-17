@@ -23,3 +23,6 @@ IaC Tools
 
 ما می توانیم از AWS بصورت مستقیم یک فایل yaml بسازیم و سپس باهاش ساختارمون رو بیاریم بالا، ولی این روی Asure یا ابزارهای دیگه کار نمیکند.
 راه حل: ترافورم گفت بیا از ابزار من استفاده کن و پشت قضیه رو به هر چیزی که میخوای مثل آمازون یا ماکروسافت وصل کن.
+
+# Configuration management vs Infrastructure Orchestration
+Terraform and cloudformation are tools to configure the cloud But ansible and puppet are Configuration management tools and their main purpose is to do some configuration on the target OS.
