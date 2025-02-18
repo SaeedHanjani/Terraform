@@ -27,8 +27,10 @@ IaC Tools
 # Configuration management vs Infrastructure Orchestration
 Terraform and cloudformation are tools to configure the cloud But ansible and puppet are Configuration management tools and their main purpose is to do some configuration on the target OS.
 
-
+# Terraform Providers and basic AWS configuration to get programmatic acces
 # Confiure mian.tf for AWS
 first you create a an acount for aws and after that you config budget . so you need a user with limited access. after that you create key access (public and secrec key).
 we create repo on github and pull on my mac. after that create  main.tf and copy data for initialize. we write terraform init in cmd of mac.
 if your terraform is not update, you see warning for need to updating your terraform.
+
+# create your first resource with terraform
