@@ -35,7 +35,7 @@ if your terraform is not update, you see warning for need to updating your terra
 
 # create your first resource with terraform
 
-##Workflow Summary (Your ESXi VM Creation)
+## Workflow Summary (Your ESXi VM Creation)
 
 ##    terraform init:
         Sets up the vsphere provider so Terraform can talk to ESXi.
