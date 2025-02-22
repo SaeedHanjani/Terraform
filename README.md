@@ -34,3 +34,14 @@ we create repo on github and pull on my mac. after that create  main.tf and copy
 if your terraform is not update, you see warning for need to updating your terraform.
 
 # create your first resource with terraform
+
+##Workflow Summary (Your ESXi VM Creation)
+
+##    terraform init:
+        Sets up the vsphere provider so Terraform can talk to ESXi.
+##    terraform validate:
+        Confirms your main.tf is syntactically correct and logical.
+##    terraform plan:
+        Previews that Terraform will create a VM with your specified settings.
+##    terraform apply:
+        Connects to ESXi and builds the VM.
