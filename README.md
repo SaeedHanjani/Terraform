@@ -37,7 +37,7 @@ if your terraform is not update, you see warning for need to updating your terra
 
 ## Workflow Summary (Your ESXi VM Creation)
 
-##    terraform init:
+##    terraform init: (before please apt update)
 Sets up the vsphere provider so Terraform can talk to ESXi.
 ##    terraform validate:
 Confirms your main.tf is syntactically correct and logical.
